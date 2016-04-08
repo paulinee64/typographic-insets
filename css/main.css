@@ -89,7 +89,7 @@ footer {
 /* Wrijte your CSS here */
 main p:first-child::first-letter{
   font-size: 5rem;
-  float:left;
+  float: left;
   background-color: #666;
   font-style: normal;
   color: #fff;
@@ -124,3 +124,4 @@ blockquote p:first-child::first-letter{
   margin-right: 0;
   border-top: none;
   border-bottom: none;
+}
