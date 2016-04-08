@@ -87,6 +87,7 @@ footer {
 */
 
 /* Wrijte your CSS here */
+
 main p:first-child::first-letter {
   font-size: 5rem;
   float: left;
@@ -106,15 +107,22 @@ figure {
   border-bottom: 3px solid #333;
   padding: 5px 0 5px 0;
 }
+
 figcaption {
   font-style: oblique;
 }
 
 blockquote {
   font-size: 1.5rem;
+  border-top: 3px solid #333;
+  border-bottom: 3px solid #333;
+  float: left;
+  width: 300px;
+  margin: 5px 0 5px 0;
+
 }
 
-blockquote p:first-child::first-letter{
+blockquote p:first-child::first-letter {
   font-size: 1.5rem;
   float:none;
   background-color: transparent;
@@ -124,4 +132,8 @@ blockquote p:first-child::first-letter{
   margin-right: 0;
   border-top: none;
   border-bottom: none;
+}
+
+main p {
+  margin: 0 2em 0 2em;
 }
