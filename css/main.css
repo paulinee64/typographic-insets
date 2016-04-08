@@ -86,4 +86,41 @@ footer {
  ##########################################################
 */
 
-/* Write your CSS here */
+/* Wrijte your CSS here */
+main p:first-child::first-letter{
+  font-size: 5rem;
+  float:left;
+  background-color: #666;
+  font-style: normal;
+  color: #fff;
+  padding: 1rem;
+  margin-right: 1rem;
+  border-top: 3px solid #333;
+  border-bottom: 3px solid #333;
+}
+
+figure {
+  float: right;
+  width: 300px;
+  border-top: 3px solid #333;
+  border-bottom: 3px solid #333;
+  padding: 5px 0 5px 0;
+}
+figcaption {
+  font-style: oblique;
+}
+
+blockquote {
+  font-size: 1.5rem;
+}
+
+blockquote p:first-child::first-letter{
+  font-size: 1.5rem;
+  float:none;
+  background-color: transparent;
+  font-style: normal;
+  color: #000;
+  padding: 0;
+  margin-right: 0;
+  border-top: none;
+  border-bottom: none;
